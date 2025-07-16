@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu tienda confiable</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="barra">
+        <div class="barra_logo">
+            <h1>Tu tienda confiable</h1>
+        </div>
+        <div class="barra_busqueda">
+            <form>
+                <input type="search" placeholder="Buscar producto">
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+
+        <div class="barra_cuenta">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                    class="bi bi-person-check" viewBox="0 0 16 16">
+                    <path
+                        d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                    <path
+                        d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z" />
+                </svg>
+            </div>
+            <div>
+                <p>Alejandro Guerrero</p>
+            </div>
+        </div>
+
+        <div class="barra_carrito">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                    class="bi bi-cart-check" viewBox="0 0 16 16">
+                    <path
+                        d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z" />
+                    <path
+                        d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                </svg>
+            </div>
+            <div>
+                <p>carrito</p>
+            </div>
+            <div class="carrito_cantidad">
+                <p>0</p>
+            </div>
+        </div>
+    </div>
+    <div class="categorias">
+        <div>
+            <button id="btnMenu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-list-check" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0" />
+                </svg>
+            </button>
+            <p>Todas las categorias</p>
+        </div>
+        <div>
+            <p>Ofertas especiales </p>
+        </div>
+    </div>
+
+    <div class="contenedor_principal">
+        <nav class="sidebar navbar" id="navbar">
+            <form>
+                <fieldset>
+                    <legend>Componentes</legend>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Categoria" value="Procesadores"> Procesadores
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Categoria" value="Memoria Ram"> Memoria Ram
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Categoria" value="Cajas"> Cajas
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Categoria" value="Fuentes"> Fuentes
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Ordenadores</legend>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Categoria" value="Procesadores"> Procesadores
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Categoria" value="Memoria Ram"> Memoria Ram
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Categoria" value="Cajas"> Cajas
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Categoria" value="Fuentes"> Fuentes
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+        </nav>
+
+        <div class="contenido_principal" id="contenido">
+            <div class="producto">
+                <div class="producto_img">
+                    <img src="./img/2989cd86-a4a1-4946-aa0c-f299ac8c5cf4.jpeg" alt="celular iphone 16">
+                </div>
+                <div class="producto_etiquetas">
+                    <label>Envio gratis</label>
+                    <label>Nuevo</label>
+                    <label>Promocion</label>
+                </div>
+                <div class="producto_descripcion">
+                    <h2>Xiaomi 14t 512gb</h2>
+                    <p>precio><span>3.400.000</span></p>
+                </div>
+
+            </div>
+            <div class="producto">
+                <div class="producto_img">
+                    <img src="./img/d51d40c8-ee65-4e45-86aa-5335035a6381.jpeg" alt="celular iphone 16">
+                </div>
+                <div class="producto_etiquetas">
+                    <label>Envio gratis</label>
+                    <label>Nuevo</label>
+                    <label>Promocion</label>
+                </div>
+                <div class="producto_descripcion">
+                    <h2>Iphone 16 promax 256gb</h2>
+                    <p>precio><span>6.250.000</span></p>
+                </div>
+
+            </div>
+            <div class="producto">
+                <div class="producto_img">
+                    <img src="./img/WhatsApp Image 2025-06-04 at 2.41.03 PM.jpeg" alt="celular iphone 16">
+                </div>
+                <div class="producto_etiquetas">
+                    <label>Envio gratis</label>
+                    <label>Nuevo</label>
+                    <label>Promocion</label>
+                </div>
+                <div class="producto_descripcion">
+                    <h2>Vivo Y19s 256gb</h2>
+                    <p>precio><span>2.400.000</span></p>
+                </div>
+
+            </div>
+            <div class="producto">
+                <div class="producto_img">
+                    <img src="./img/2989cd86-a4a1-4946-aa0c-f299ac8c5cf4.jpeg" alt="celular iphone 16">
+                </div>
+                <div class="producto_etiquetas">
+                    <label>Envio gratis</label>
+                    <label>Nuevo</label>
+                    <label>Promocion</label>
+                </div>
+                <div class="producto_descripcion">
+                    <h2>Galaxi A03 core</h2>
+                    <p>precio><span>399.000</span></p>
+                </div>
+
+            </div>
+            <div class="producto">
+                <div class="producto_img">
+                    <img src="./img/2989cd86-a4a1-4946-aa0c-f299ac8c5cf4.jpeg" alt="celular iphone 16">
+                </div>
+                <div class="producto_etiquetas">
+                    <label>Envio gratis</label>
+                    <label>Nuevo</label>
+                    <label>Promocion</label>
+                </div>
+                <div class="producto_descripcion">
+                    <h2>Poco X7 pro</h2>
+                    <p>precio><span>1.499.000</span></p>
+                </div>
+
+            </div>
+            <div class="producto">
+                <div class="producto_img">
+                    <img src="./img/2989cd86-a4a1-4946-aa0c-f299ac8c5cf4.jpeg" alt="celular iphone 16">
+                </div>
+                <div class="producto_etiquetas">
+                    <label>Envio gratis</label>
+                    <label>Nuevo</label>
+                    <label>Promocion</label>
+                </div>
+                <div class="producto_descripcion">
+                    <h2>Iphone 13 pro 128gb</h2>
+                    <p>precio><span>2.100.000</span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Todos los derechos reservados-&copy; Alejandro Guerrero</p>
+    </footer>
+    <script src="./java/script.js"></script>
+</body>
+
+</html>
